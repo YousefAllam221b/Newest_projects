@@ -85,4 +85,13 @@ Tables:
   rowspan="number" : to stretch the entries in a table across more than one row.
   <thead> : to distinguish between entries in the head from the next item by a
   <tbody> : separating line
-  <tfoot> 
+  <tfoot>
+
+<!DOCTYPE html> : to tell the browser to work with Html5.
+<!-- -->  : to write comments.
+id , class: used to uniquely identify that element from other elements on the page.
+<div> : allows you to group a set of elements together in one block-level box.
+<span> : acts like an inline equivalent of the <div> element.
+<iframe> : a little window that has been cut into your page to see another page.
+
+#There is form ,video and audio found in the book, no notes about it here.
