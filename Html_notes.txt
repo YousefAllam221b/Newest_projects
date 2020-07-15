@@ -1,0 +1,7 @@
+<head> : comes at the top of the page to write main info about the page.
+<title> : written in the <head> and its content appears in the name of the tab.
+<body> : where all the content is shown.
+<h1> : headings for body and it comes in different sizes. from 1->6.
+<p> : to write a paragraph.
+<b> : to make the text in between bold.
+<i> : to make the text in between italic.
