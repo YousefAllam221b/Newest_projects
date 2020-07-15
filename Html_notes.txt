@@ -63,3 +63,26 @@ Attributes:
    mailto : to create a link that addresses an email to a specified email address.
    target="_blank" : to open the link in a new window.
    id : to give a certain id to the tag so you can relate to it later.
+
+Image Tags and Attributes:
+  <img> : to add an image.
+  src : to write the source of the image as a relative url.
+  alt : to write description of the image.
+  title : to write the title of the image.
+  height = ""
+  width = ""
+  align = "right or left"
+  <figure> : to contain images and their caption so that the two are associated.
+  <figcaption> : to add a caption to an image.
+
+Tables:
+  <table> : to create a table.
+  <tr> : to start a row.
+  <td> : to enter cell.
+  <th> : to represent the heading of a row or a column.
+  scope="row or column" : to indicate whether it is a heading for a column or a row.
+  colspan="number" : to stretch the entries in a table across more than one column.
+  rowspan="number" : to stretch the entries in a table across more than one row.
+  <thead> : to distinguish between entries in the head from the next item by a
+  <tbody> : separating line
+  <tfoot> 
