@@ -4,11 +4,42 @@ Main tags:
   <body> : where all the content is shown.
 
 Text tags:
-  <h1> : headings for body and it comes in different sizes. from 1->6.
-  <p> : to write a paragraph.
-  <b> : to make the text in between bold.
-  <i> : to make the text in between italic.
-  <sup> : to make the text in between raised up as 4th or 2 power 2.
-  <sub> : to make the text in between lowered down as H2O.
-  <br /> : line breaker.
-  <hr /> : to seperate the two paragraphs with a line.
+  Writing tags:
+    <h1> : headings for body and it comes in different sizes. from 1->6.
+    <p> : to write a paragraph.
+
+  Ways of writing:
+    <b> : to make the text in between bold.
+    <i> : to make the text in between italic.
+    <s> : to make strikethrough. Cross the content.
+    <sup> : to make the text in between raised up as 4th or 2 power 2.
+    <sub> : to make the text in between lowered down as H2O.
+
+  Breakers:
+    <br /> : line breaker.
+    <hr /> : to separate the two paragraphs with a line.
+
+  Emphasis:
+    <strong> : it indicates that the content is important. It makes it bold.
+    <em> : it indicates that subtly changes the meaning of a sentence. It makes it italic.
+
+  Quotes:
+    <blockquote> : it's used for long quotes that take up an entire paragraph. The <p> is used inside.
+    <q> :  it's used for shorter quotes that sit within a paragraph.
+
+  Citation:
+    <cite> : used to indicate where the citation is from.
+    <dfn> :  used to indicate the defining instance of a new term.
+
+  Abbreviations:
+    <abbr title="text"> : used to write abbreviation and when hovering on it , it shows the whole definition.
+
+  Author details:
+    <address> : used to contain contact details for the author of the page.
+
+  Insert and Delete:
+    <ins> : used to show content that has been inserted into a document.
+    <del> : used to show text that has been deleted from it.
+
+Lists tags:
+  
