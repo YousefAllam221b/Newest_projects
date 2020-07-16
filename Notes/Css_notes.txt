@@ -1,0 +1,88 @@
+Color :
+  color : name , hex code , rgb(0,0,0)
+  background-color : name , hex code , rgb(0,0,0)
+  opacity : transparency , from 0.0 to 1 or 0%
+  rgba : the normal rgb + opacity
+  Hue : color by degree, from 0 to 360
+  Saturation : by 0%
+  Lightness : 0% white , 100% black
+  hsl / hsla
+
+Text :
+  font-family : name
+  font-size : 0px , 0% , 0em (width)
+  @font-face : to use a font, even if it is not installed on the computer of the person. by font-family and src.
+  font-weight : normal, bold
+  font-style : normal , italic , oblique
+  text-transform : uppercase , lowercase , capitalize.
+  text-decoration : none , underline , overline , line-through , blink
+  line-height : the space between each line , 0em
+  letter-spacing : the space between each letter , 0em
+  word-spacing : the space between each word , 0em
+  text-align : left , right , center , justify
+  vertical-align : baseline , sub , super , top , text-top , middle , bottom
+  text-indent : 0px
+  :first-letter : to apply special property to the first letter in the line
+  :first-line : to apply special property to the first line
+  :line : to set properties for links which haven't been visited yet
+  :visited : to set properties for links which haven't been visited yet
+  :hover : to set properties when cursor is brought on it
+  :active : to set properties when an element is being active like a button
+Boxes :
+  min-height
+  max-height
+  overflow :  tells the browser what to do if the content contained within a box is larger than the box itself. hidden or scroll
+  border-bottom-style
+  border-left-style
+  border-right-style
+  border-style
+  border-top-style
+  border-bottom-color
+  border-color
+  border-left-color
+  border-right-color
+  border-top-color
+  border property
+padding-bottom property
+padding-left property
+padding property
+padding-right property
+padding-top property
+margin-bottom property
+margin-left property
+margin property
+margin-right property
+margin-top property
+display property
+visibility property
+border-image property
+box-shadow property
+border-radius property
+list-style-type property
+list-style-image property
+list-style-position property
+list-style property
+padding property (tables)
+width property (tables)
+empty-cells property
+border-collapse property
+border-spacing property
+cursor property
+float property
+z-index property
+bottom property
+left property
+position property
+right property
+top property
+width property (floating elements)
+clear property
+height (images)
+width (images)
+float property (images)
+background-image property
+background-attachment property
+background-repeat property
+background-position property
+background property
+background-image property (gradients)
