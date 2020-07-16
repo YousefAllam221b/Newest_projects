@@ -1,0 +1,33 @@
+git init (initialize local repository)
+
+git config --global user.name "username"
+git config --global user.email "email"
+git config --list
+
+git status (check status of working tree and what is in the staging area)
+touch file (to create a file in the current directory)
+
+git add <file> (to add file to the staging area)
+	*.<exe> (to add all files with the same extension to the staging area)
+	* (to add all files to the staging area)
+git rm --cached <file> (remove a file from the staging area)
+		*.<exe> (to remove all files with the same extension from the staging area)
+		* (to remove all files in the staging area)
+git commit (to commit changes in the staging area)
+	press i for insert ,esc for exiting typing mode , write :wq to write and quit
+git commit -m 'message' (to commit without entering editing mode)
+
+touch .gitignore (create a this file and write in it the files you dont want to track)
+	(if you want to ignore a while directory , you can write in the .gitignore /<name of the directory>)
+git branch <branch name> (to create a branch)
+git checkout <name of the branch> (to switch to other branch)
+
+git merge <branch name> (to merge two branches)
+
+git remote (to see the remote repositories avaliable)
+
+git remote add <link you will find when you create a repository on github>
+git push -u origin master ( you will find as well on github to push the files and commits)
+
+git clone <link> (you will find the link on the reposirtory you want to clone or download)
+git pull (pull latest from remote repository)
