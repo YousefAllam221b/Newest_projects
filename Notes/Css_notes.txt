@@ -32,27 +32,14 @@ Boxes :
   min-height
   max-height
   overflow :  tells the browser what to do if the content contained within a box is larger than the box itself. hidden or scroll
-  border-bottom-style
-  border-left-style
-  border-right-style
+  border-width : top , right , bottom , left or thin , medium , thick
   border-style
-  border-top-style
-  border-bottom-color
-  border-color
-  border-left-color
-  border-right-color
-  border-top-color
-  border property
-padding-bottom property
-padding-left property
-padding property
-padding-right property
-padding-top property
-margin-bottom property
-margin-left property
-margin property
-margin-right property
-margin-top property
+  border-color : you can add to,right... in the middle the word to specify which edge to set the properties
+  padding : to specify space between the content of an element and its border
+  padding : top , right , bottom , left
+  margin : top , right , bottom , left
+           right and left , top and bottom
+           to center : top , auto , bottom , auto
 display property
 visibility property
 border-image property
