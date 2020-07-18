@@ -21,7 +21,7 @@
 [    0.000000] e820: last_pfn = 0x3fff0 max_arch_pfn = 0x400000000
 [    0.000000] MTRR default type: uncachable
 [    0.000000] MTRR variable ranges disabled:
-[    0.000000] PAT configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- UC  
+[    0.000000] PAT configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- UC
 [    0.000000] CPU MTRRs all blank - virtualized system.
 [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [ffffffffff200ff0]
 [    0.000000] Base memory trampoline at [ffff918e00099000] 99000 size 24576
@@ -81,7 +81,7 @@
 [    0.000000] setup_percpu: NR_CPUS:5120 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
 [    0.000000] PERCPU: Embedded 38 pages/cpu @ffff918e3fc00000 s118784 r8192 d28672 u2097152
 [    0.000000] pcpu-alloc: s118784 r8192 d28672 u2097152 alloc=1*2097152
-[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] pcpu-alloc: [0] 0
 [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 257913
 [    0.000000] Policy zone: DMA32
 [    0.000000] Kernel command line: BOOT_IMAGE=/vmlinuz-3.10.0-1062.el7.x86_64 root=/dev/mapper/centos-root ro crashkernel=auto spectre_v2=retpoline rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet LANG=en_US.UTF-8
@@ -408,7 +408,7 @@
 [    1.684404] ahci 0000:00:0d.0: version 3.0
 [    1.685061] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
 [    1.685180] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
-[    1.685182] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+[    1.685182] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc
 [    1.686217] scsi host2: ahci
 [    1.686253] ata3: SATA max UDMA/133 abar m8192@0xf1806000 port 0xf1806100 irq 21
 [    1.686949] [drm] DMA map mode: Keeping DMA mappings.
