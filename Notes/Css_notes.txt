@@ -28,6 +28,7 @@ Text :
   :visited : to set properties for links which haven't been visited yet
   :hover : to set properties when cursor is brought on it
   :active : to set properties when an element is being active like a button
+
 Boxes :
   min-height
   max-height
@@ -40,20 +41,34 @@ Boxes :
   margin : top , right , bottom , left
            right and left , top and bottom
            to center : top , auto , bottom , auto
-display property
-visibility property
-border-image property
-box-shadow property
-border-radius property
-list-style-type property
-list-style-image property
-list-style-position property
-list-style property
-padding property (tables)
-width property (tables)
-empty-cells property
-border-collapse property
-border-spacing property
+  display : will act as it doesnt exist , inline , block , inline-block , none
+  visibility : will act as it is there but we cant see it , visible , hidden
+  border-image property
+  box-shadow property : Horizontal offest , vertical offest
+  border-radius
+  -moz-border-radius:
+  -webkit-border-radius:
+
+Lists :
+  list-style-type : Unordered : none , disc , circle , square.
+                    Ordered : decimal , decimal-leading-zero , lower-alpha , lower-roman
+  list-style-image : url("image path")
+  list-style-position : inside , outside
+  list-style : shorthand for the previous , inside circle
+
+Tables :
+  width
+  padding
+  text-transform
+  font-size
+  border
+  text-align
+  background-color
+  :hover
+  empty-cells : show , hide , inherit
+  border-collapse : when cells are adjacent , sperate will make the borders of each cell exist
+                                              collapse will make only one border between them
+  border-spacing : space between cells , Horizontal , vertical
 cursor property
 float property
 z-index property
