@@ -1,0 +1,38 @@
+Jul 11 12:09:09 dhcp31371 setsid: starting etcd=0
+Jul 11 12:09:09 dhcp31371 setsid: ● etcd.service - Etcd Server
+Jul 11 12:09:09 dhcp31371 setsid: Loaded: loaded (/usr/lib/systemd/system/etcd.service; disabled; vendor preset: disabled)
+Jul 11 12:09:09 dhcp31371 setsid: Active: failed (Result: start-limit) since Sat 2020-07-11 11:27:48 EET; 41min ago
+Jul 11 12:09:09 dhcp31371 setsid: Main PID: 14281 (code=exited, status=1/FAILURE)
+Jul 11 12:09:09 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: Failed to start Etcd Server.
+Jul 11 12:09:09 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: Unit etcd.service entered failed state.
+Jul 11 12:09:09 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: etcd.service failed.
+Jul 11 12:09:09 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: etcd.service holdoff time over, scheduling restart.
+Jul 11 12:09:09 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: Stopped Etcd Server.
+Jul 11 12:09:09 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: start request repeated too quickly for etcd.service
+Jul 11 12:09:09 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: Failed to start Etcd Server.
+Jul 11 12:09:09 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: Unit etcd.service entered failed state.
+Jul 11 12:09:09 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: etcd.service failed.
+Jul 11 12:09:10 dhcp31371 setsid: starting etcd=0
+Jul 11 12:09:10 dhcp31371 setsid: ● etcd.service - Etcd Server
+Jul 11 12:09:10 dhcp31371 setsid: Loaded: loaded (/usr/lib/systemd/system/etcd.service; disabled; vendor preset: disabled)
+Jul 11 12:09:10 dhcp31371 setsid: Active: failed (Result: start-limit) since Sat 2020-07-11 11:27:48 EET; 41min ago
+Jul 11 12:09:10 dhcp31371 setsid: Main PID: 14281 (code=exited, status=1/FAILURE)
+Jul 11 12:09:10 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: Failed to start Etcd Server.
+Jul 11 12:09:10 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: Unit etcd.service entered failed state.
+Jul 11 12:09:10 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: etcd.service failed.
+Jul 11 12:09:10 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: etcd.service holdoff time over, scheduling restart.
+Jul 11 12:09:10 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: Stopped Etcd Server.
+Jul 11 12:09:10 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: start request repeated too quickly for etcd.service
+Jul 11 12:09:10 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: Failed to start Etcd Server.
+Jul 11 12:09:10 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: Unit etcd.service entered failed state.
+Jul 11 12:09:10 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: etcd.service failed.
+Jul 11 12:09:11 dhcp31371 setsid: starting etcd=0
+Jul 11 12:09:11 dhcp31371 setsid: ● etcd.service - Etcd Server
+Jul 11 12:09:11 dhcp31371 setsid: Loaded: loaded (/usr/lib/systemd/system/etcd.service; disabled; vendor preset: disabled)
+Jul 11 12:09:11 dhcp31371 setsid: Active: failed (Result: start-limit) since Sat 2020-07-11 11:27:48 EET; 41min ago
+Jul 11 12:09:11 dhcp31371 setsid: Main PID: 14281 (code=exited, status=1/FAILURE)
+Jul 11 12:09:11 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: Failed to start Etcd Server.
+Jul 11 12:09:11 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: Unit etcd.service entered failed state.
+Jul 11 12:09:11 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: etcd.service failed.
+Jul 11 12:09:11 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: etcd.service holdoff time over, scheduling restart.
+Jul 11 12:09:11 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: Stopped Etcd Server.
