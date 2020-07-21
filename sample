@@ -319,4 +319,4 @@ Jul 11 12:09:32 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: Failed t
 Jul 11 12:09:32 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: Unit etcd.service entered failed state.
 Jul 11 12:09:32 dhcp31371 setsid: Jul 11 11:27:48 dhcp31371 systemd[1]: etcd.service failed.
 Jul 11 12:09:33 dhcp31371 setsid: starting etcd=0
-Jul 11 12:09:33 dhcp31371 setsid: ● etcd.service - Etcd Server
+Jul 11 12:09:33 dhcp31371 setsid: ● etcd.service - Etcd Server 
