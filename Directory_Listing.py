@@ -12,9 +12,13 @@ def getfolders(directory):
 def getfiles(d):
     out=[]
     for y in files(directory+ "/"+d):
-          out+=y
+          out+=[y]
+    return out
 with open(r"text.txt","w") as file:
-    for x in getfolders(directory):
-        file.write(x+": \n")
-        for y in getfiles(x):
-            file.write(y+"\n")
+	for x in getfolders(directory):
+		print(x)
+		file.write(x+": \n")
+		print(getfiles(x))
+		for y in getfiles(x):
+			
+			file.write(y+"\n")
