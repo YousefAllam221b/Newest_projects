@@ -20,5 +20,4 @@ with open(r"text.txt","w") as file:
 		file.write(x+": \n")
 		print(getfiles(x))
 		for y in getfiles(x):
-			
 			file.write(y+"\n")
