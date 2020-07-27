@@ -14,6 +14,6 @@ with open(r"text.txt","w") as file:
 #             file.write("\t" + y +"\n")
     for root, dirs, files in os.walk(directory, topdown=False):
        for name in files:
-          file.write(os.path.join(root, name))
+          file.write(os.path.join(root, name)+"\n")
        for name in dirs:
-          file.write(os.path.join(root, name))
+          file.write(os.path.join(root, name)+"\n")
