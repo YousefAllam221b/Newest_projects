@@ -12,8 +12,6 @@ with open(r"text.txt","w") as file:
 #         file.write(x+": " +"\n")
 #         for y in files(directory+ "/"+x):
 #             file.write("\t" + y +"\n")
-    for root, dirs, files in os.walk(directory, topdown=False):
-       for name in files:
-          file.write(os.path.join(root, name)+"\n")
-       for name in dirs:
-          file.write(os.path.join(root, name)+"\n")
+listOfFiles = list()
+for (dirpath, dirnames, filenames) in os.walk(directory):
+    listOfFiles += [os.path.join(dirpath, file) for file in filenames]
