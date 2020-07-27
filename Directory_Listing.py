@@ -15,11 +15,12 @@ def getfiles(d):
           out+=[y]
     return out
 
+def getfilesinfolders():
+    for x in getfolders(directory):
+	    file.write(x+": \n")
+		for y in getfiles(x):
+            file.write(y+"\n")
 
 with open(r"text.txt","w") as file:
-	for x in getfolders(directory):
-		print(x)
-		file.write(x+": \n")
-		print(getfiles(x))
-		for y in getfiles(x):
-			file.write(y+"\n")
+    for x in getfolders(directory):
+        getfilesinfolders()
