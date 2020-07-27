@@ -14,6 +14,7 @@ def getfiles(d):
     for y in files(directory+ "/"+d):
           out+=[y]
     return out
+
 with open(r"text.txt","w") as file:
 	for x in getfolders(directory):
 		print(x)
