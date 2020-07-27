@@ -6,9 +6,15 @@ def files(path):
             yield file
 directory=r"/media/yousef/6a7721ee-4aef-4fec-8acf-614869125d1d/home/yousef/Desktop/SERIES"
 content=os.listdir(r"/media/yousef/6a7721ee-4aef-4fec-8acf-614869125d1d/home/yousef/Desktop/SERIES")
-with open(r"text.txt","w") as file:
+def getfolders(directory):
     folders=[ name for name in os.listdir(directory) if os.path.isdir(os.path.join(directory, name)) ]
-    for x in folders:
-       file.write(x+": " +"\n")
-       for y in files(directory+ "/"+x):
-             file.write("\t" + y +"\n")
+    return folders
+def getfiles(d):
+    out=[]
+    for y in files(directory+ "/"+d):
+          out+=y
+with open(r"text.txt","w") as file:
+    for x in getfolders(directory):
+        file.write(x+": \n")
+        for y in getfiles(x):
+            file.write(y+"\n")
