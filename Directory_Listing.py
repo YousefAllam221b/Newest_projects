@@ -9,13 +9,26 @@ with open("text.txt","w") as file:
 	folders=os.listdir(directory)
 	for folder in folders:
 		p=os.listdir(directory+"/"+folder)
+		dict[folder]=[]
 		for i in p:
+			
 			if os.path.isdir(directory+"/"+folder+"/"+i):
 				b=os.listdir(directory+"/"+folder+"/"+i)
-				dict[folder][i]=b
+				dict[folder]+=[{i:b}]
+				
+				
+				
 			else:
-				dict[folder]=p
-print(dict)
+				dict[folder]+=p
+for key in dict.keys():
+	print(key)
+	for a in dict[key]:
+		if isinstance(a,list):
+			print(a)
+		elif isinstance(a,dict):
+			for b in dict[key].keys():
+				print(b)
+				print(dict[key][b])
 
 	# for folder in folders:
 	# 	dict[folder]={}
