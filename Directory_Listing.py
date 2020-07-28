@@ -25,10 +25,7 @@ def extract_series():
 					file.write("\t\t"+ val+"\n")
 extract_series()
 names=copy.deepcopy(adict)
-
 def renaming():
-	
-	
 	for key in names.keys():
 		for a in names[key]:
 			ind=0
@@ -37,23 +34,16 @@ def renaming():
 				episode=re.compile("(?=.*)(E\d\d|e\d\d)(?=.*)")
 				se=season.findall(val)
 				ep=episode.findall(val)
-				if len(se) !=0 and len(ep) !=0: 
+				if len(se) !=0 and len(ep) !=0:
 					names[key][a][ind]= key +" "+ se[0] + " " + ep[0] + val[-4:]
 				ind+=1
+	with open("text2.txt","w") as file2:
+		for key in names.keys():
+				file2.write(key+"\n")
+				for a in names[key]:
+					file2.write("\t"+a+"\n")
+					names[key][a]=sorted(names[key][a])
+					for val in names[key][a]:
+						file2.write("\t\t"+ val+"\n")
 
 renaming()
-with open("text2.txt","w") as file2:
-	for key in names.keys():
-			file2.write(key+"\n")
-			for a in names[key]:
-				file2.write("\t"+a+"\n")
-				names[key][a]=sorted(names[key][a])
-				for val in names[key][a]:
-					file2.write("\t\t"+ val+"\n")
-
-
-
-
-
-
-
