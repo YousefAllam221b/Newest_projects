@@ -1,5 +1,6 @@
 import os
 import re
+import copy
 directory=r"/media/yousef/6a7721ee-4aef-4fec-8acf-614869125d1d/home/yousef/Desktop/SERIES"
 adict={}
 def extract_series():
@@ -22,14 +23,11 @@ def extract_series():
 				file.write("\t"+a+"\n")
 				for val in adict[key][a]:
 					file.write("\t\t"+ val+"\n")
-
+extract_series()
+names=copy.deepcopy(adict)
 def renaming():
-	series="[EgyBest].Chernobyl.S01E01.WEB-DL.240p.x264.mp4"
-	season=re.compile("(?=.*)(S\d\d|s\d\d)(?=.*)")
-	episode=re.compile("(?=.*)(E\d\d|e\d\d)(?=.*)")
-	se=season.findall(series)
-	ep=episode.findall(series)
-	names=copy.deepcopy(adict)
+	
+	
 	for key in names.keys():
 		for a in names[key]:
 			for val in names[key][a]:
@@ -37,4 +35,11 @@ def renaming():
 				episode=re.compile("(?=.*)(E\d\d|e\d\d)(?=.*)")
 				se=season.findall(val)
 				ep=episode.findall(val)
-				names[key][a]= key +" "+ se + " " + ep
+				if len(se) !=0 and len(ep) !=0: 
+					names[key][a]= key +" "+ se[0] + " " + ep[0]
+
+renaming()
+print(names)
+
+
+
