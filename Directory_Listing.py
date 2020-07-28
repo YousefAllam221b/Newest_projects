@@ -9,26 +9,22 @@ with open("text.txt","w") as file:
 	folders=os.listdir(directory)
 	for folder in folders:
 		p=os.listdir(directory+"/"+folder)
-		adict[folder]=[]
+		adict[folder]={"files":[]}
 		for i in p:
-
 			if os.path.isdir(directory+"/"+folder+"/"+i):
 				b=os.listdir(directory+"/"+folder+"/"+i)
-				adict[folder]+=[{i:b}]
-
-
-
+				adict[folder][i]=b
 			else:
-				adict[folder]+=p
-for key in adict.keys():
-	print(key)
-	for a in adict[key]:
-		if isinstance(a,list):
-			print(a)
-		elif isinstance(a,adict):
-			for b in adict[key].keys():
-				print(b)
-				print(adict[key][b])
+				adict[folder]["files"]+=[i]
+
+	for key in adict.keys():
+		file.write(key+"\n")
+		for a in adict[key]:
+			file.write("\t"+a+"\n")
+			for val in adict[key][a]:
+				file.write("\t\t"+ val+"\n")
+
+		
 
 	# for folder in folders:
 	# 	adict[folder]={}
