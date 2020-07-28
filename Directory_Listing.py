@@ -38,7 +38,7 @@ def renaming():
 				se=season.findall(val)
 				ep=episode.findall(val)
 				if len(se) !=0 and len(ep) !=0: 
-					names[key][a][ind]= key +" "+ se[0] + " " + ep[0]
+					names[key][a][ind]= key +" "+ se[0] + " " + ep[0] + val[-4:]
 				ind+=1
 
 renaming()
