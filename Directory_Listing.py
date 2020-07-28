@@ -20,6 +20,7 @@ with open("text.txt","w") as file:
 		if type(dict[key]) == 'list':
 			print(dict[key])
 			file.write(dict[key] +" \n")
+
 		else:
 			for akey in dict[key].keys():
 				file.write(akey +": \n")
