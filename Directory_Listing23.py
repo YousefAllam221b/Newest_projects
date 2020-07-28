@@ -1,25 +1,23 @@
 import os
 import re
-def files(path):
-    for file in os.listdir(path):
-        if os.path.isfile(os.path.join(path, file)):
-            yield file
+
 directory=r"/media/yousef/6a7721ee-4aef-4fec-8acf-614869125d1d/home/yousef/Desktop/SERIES"
-content=os.listdir(r"/media/yousef/6a7721ee-4aef-4fec-8acf-614869125d1d/home/yousef/Desktop/SERIES")
-def getfolders(directory):
-    folders=[ name for name in os.listdir(directory) if os.path.isdir(os.path.join(directory, name)) ]
-    return folders
-def getfiles(d):
-    out=[]
-    for y in files(directory+ "/"+d):
-          out+=[y]
-    return out
 
 
-with open(r"text.txt","w") as file:
-	for x in getfolders(directory):
-		print(x)
-		file.write(x+": \n")
-		print(getfiles(x))
-		for y in getfiles(x):
-			file.write(y+"\n")
+dict={}
+with open("text.txt","w") as file:
+	def list_files(startpath):
+		for root, dirs, files in os.walk(startpath):
+			level = root.replace(startpath, '').count(os.sep)
+			indent = ' ' * 4 * (level)
+			dict['{}{}'.format(indent, os.path.basename(root))]=[]
+			file.write('{}{}:'.format(indent, os.path.basename(root))+"\n")
+			subindent = ' ' * 4 * (level + 1)
+			for f in files:
+				dict['{}{}'.format(indent, os.path.basename(root))]+=['{}{}'.format(subindent, f)+"\n"]
+			    file.write('{}{}'.format(subindent, f)+"\n")
+	list_files(directory)
+for key in dict.keys():
+	print(key)
+	for value in dict.values():
+		print(value)
