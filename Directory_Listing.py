@@ -47,6 +47,7 @@ with open("text2.txt","w") as file2:
 			file2.write(key+"\n")
 			for a in names[key]:
 				file2.write("\t"+a+"\n")
+				names[key][a]=sorted(names[key][a])
 				for val in names[key][a]:
 					file2.write("\t\t"+ val+"\n")
 
