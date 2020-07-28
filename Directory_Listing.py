@@ -8,32 +8,20 @@ dict={}
 with open("text.txt","w") as file:
 	folders=os.listdir(directory)
 	for folder in folders:
-		dict[folder]={}
-		if os.listdir(directory+"/"+folder) != []:
-			for subd in os.listdir(directory+"/"+folder):
-				dict[folder][subd]=[f for f in os.listdir(directory+"/"+folder) if os.path.isfile(os.path.join(directory+"/"+folder, f))]
-		else:
-			dict[folder]= [f for f in os.listdir(directory+"/"+folder) if os.path.isfile(os.path.join(directory+"/"+folder, f))]
-	for key in dict.keys():
-		print(key)
-		file.write(key +": \n")
-		if type(dict[key]) == 'list':
-			print(dict[key])
-			file.write(dict[key] +" \n")
+		p=os.listdir(directory+"/"+folder)
+		for i in p:
+			if os.path.isdir(directory+"/"+folder+"/"+i):
+				b=os.listdir(directory+"/"+folder+"/"+i)
+				dict[folder][i]=b
+			else:
+				dict[folder]=p
+print(dict)
 
-		else:
-			for akey in dict[key].keys():
-				file.write(akey +": \n")
-				if type(dict[key][akey]) == 'list':
-					print(dict[key][akey])
-					file.write(dict[key][akey] +" \n")
-
-
-
-
-
-
-
-
-
-
+	# for folder in folders:
+	# 	dict[folder]={}
+	# 	if os.listdir(directory+"/"+folder) != []:
+	# 		for subd in os.listdir(directory+"/"+folder):
+	# 			dict[folder][subd]=[f for f in os.listdir(directory+"/"+folder) if os.path.isfile(os.path.join(directory+"/"+folder, f))]
+	# 	else:
+	# 		dict[folder]= [f for f in os.listdir(directory+"/"+folder) if os.path.isfile(os.path.join(directory+"/"+folder, f))]
+	#
