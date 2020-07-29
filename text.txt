@@ -1,385 +1,54 @@
-Rick and Morty
-	files
-		Rick.and.Morty.S03E06.480p.HDTV.x264.srt
-		Rick.and.Morty.S01E02.srt
-		Rick.and.Morty.S03E10.480p.HDTV.x264.mkv
-		Rick.and.Morty.S02E07.480p.srt
-		Rick.and.Morty.S01E11.mkv
-		Rick.and.Morty.S03E03.480p.HDTV.x264.mkv
-		Rick.and.Morty.S01E10.mkv
-		Rick.and.Morty.S01E07.srt
-		Rick.and.Morty.S01E05..srt
-		Rick.and.Morty.S03E07.480p.HDTV.x264.srt
-		Rick.and.Morty.S03E06.480p.HDTV.x264.mkv
-		Rick.and.Morty.S02E10.480p.srt
-		Rick.and.Morty.S03E09.480p.HDTV.x264.srt
-		Rick.and.Morty.S01E08.srt
-		Rick.and.Morty.S01E02.mkv
-		Rick.and.Morty.S01E01.pilot.480p.mkv
-		Rick.and.Morty.S03E03.480p.HDTV.x264.srt
-		Rick.and.Morty.S02E10.480p.mkv
-		Rick.and.Morty.S01E03.srt
-		Rick.and.Morty.S01E09..mkv
-		Rick.and.Morty.S03E08.480p.HDTV.x264.srt
-		Rick.and.Morty.S02E02.480p.mkv
-		Rick.and.Morty.S01E05..mkv
-		Rick.and.Morty.S02E05.480p.srt
-		Rick.and.Morty.S03E07.480p.HDTV.x264.mkv
-		Rick.and.Morty.S01E04.srt
-		Rick.and.Morty.S03E02.480p.HDTV.x264.srt
-		Rick.and.Morty.S02E08.480p.mkv
-		Rick.and.Morty.S03E05.480p.HDTV.x264.srt
-		Rick.and.Morty.S03E08.480p.HDTV.x264.mkv
-		Rick.and.Morty.S02E03.480p.mkv
-		Rick.and.Morty.S02E08.480p.srt
-		Rick.and.Morty.S01E08.mkv
-		Rick.and.Morty.S02E06.480p.mkv
-		Rick.and.Morty.S02E07.480p.mkv
-		Rick.and.Morty.S02E04.480p.mkv
-		Rick.and.Morty.S02E02.480p.srt
-		Rick.and.Morty.S03E10.480p.HDTV.x264.srt
-		Rick.and.Morty.S02E05.480p.mkv
-		Rick.and.Morty.S03E04.480p.HDTV.x264.mkv
-		Rick.and.Morty.S02E01.480p.srt
-		Rick.and.Morty.S01E06.mkv
-		Rick.and.Morty.S01E06.srt
-		Rick.and.Morty.S01E04.mkv
-		Rick.and.Morty.S03E05.480p.HDTV.x264.mkv
-		Rick.and.Morty.S03E01.480p.HDTV.x264.mkv
-		Rick.and.Morty.S02E01.480p.mkv
-		Rick.and.Morty.S01E07.mkv
-		Rick.and.Morty.S03E09.480p.HDTV.x264.mkv
-		Rick.and.Morty.S02E09.480p.srt
-		Rick.and.Morty.S01E09..srt
-		Rick.and.Morty.S03E02.480p.HDTV.x264.mkv
-		Rick.and.Morty.S02E06.480p.srt
-		Rick.and.Morty.S02E09.480p.mkv
-		Rick.and.Morty.S01E03.mkv
-		Rick.and.Morty.S03E04.480p.HDTV.x264.srt
-The Punisher
-	files
-		The Punisher S01 E01.mp4
-		The Punisher S01 E08.mp4
-		The Punisher S01 E05.mp4
-		The Punisher S02.rar
-		The Punisher S01 E06.mp4
-		The Punisher S01 E10.mp4
-		The Punisher S01 E04.mp4
-		The Punisher S01 E09.mp4
-		The Punisher S01 E02.mp4
-		The Punisher S01 E11.mp4
-		The Punisher S01 E07.mp4
-		The Punisher S01 E03.mp4
-		The Punisher S01 E12.mp4
-		The Punisher S01 E13.mp4
-	The Punisher S02
-		The Punisher.jpg
-		The Punisher S02 E10.mp4
-		The Punisher S02 E02.mp4
-		The Punisher S02 E13.mp4
-		The Punisher S02 E03.mp4
-		The Punisher S02 E07.mp4
-		The Punisher S02 E05.mp4
-		The Punisher S02 E11.mp4
-		The Punisher S02 E09.mp4
-		The Punisher S02 E12.mp4
-		The Punisher S02 E08.mp4
-		The Punisher S02 E01.mp4
-		The Punisher S02 E04.mp4
-		The Punisher S02 E06.mp4
-Black Mirror
-	files
-		Black Mirror S02 E01.mp4
-		Black Mirror S03 E03.mp4
-		Black Mirror S03 E06.mp4
-		Black Mirror S01 E02.mp4
-		Black Mirror S03 E04.mp4
-		Black Mirror S02 E04.mp4
-		Black Mirror S01 E03.mp4
-		Black Mirror Bandersnatch.mp4
-		Black Mirror S03 E02.mp4
-		Black Mirror S04 E01.mp4
-		Black.Mirror.S05E01.480p.WEB-DL.RMTeam_MeliMedia.mkv
-		Black Mirror S04 E06.mp4
-		Black Mirror S02 E03.mp4
-		Black.Mirror.S05E02.480p.WEB-DL.RMTeam_MeliMedia.mkv
-		Black.Mirror.S05E03.480p.WEB-DL.RMTeam_MeliMedia.mkv
-		Black Mirror S04 E03.mp4
-		Black Mirror S02 E02.mp4
-		Black Mirror S04 E04.mp4
-		Black Mirror S04 E05.mp4
-		Black Mirror S04 E02.mp4
-		Black Mirror S03 E05.mp4
-		Black Mirror S01 E01.mp4
-		Black Mirror S03 E01.mp4
 Atypical
 	files
-	S01
-		Atypical S01 E01.mp4
-		Atypical S01 E07.mp4
-		Atypical S01 E06.mp4
-		Atypical S01 E02.mp4
-		Atypical S01 E03.mp4
-		Atypical S01 E05.mp4
-		Atypical S01 E04.mp4
-		Atypical S01 E08.mp4
-	S02
-		Atypical S02 E08.mp4
-		Atypical S02 E10.mp4
-		Atypical S02 E05.mp4
-		Atypical S02 E02.mp4
-		Atypical S02 E03.mp4
-		Atypical S02 E07.mp4
-		Atypical S02 E09.mp4
-		Atypical S02 E01.mp4
-		Atypical S02 E06.mp4
-		Atypical S02 E04.mp4
-Ozark
-	files
-		Ozark-S02E08-480p.WEB-DL_MeliMedia.mkv
-		Ozark S01 E08.mp4
-		Ozark-S02E01-480p.WEB-DL_MeliMedia.mkv
-		Ozark S01 E07.mp4
-		Ozark-S02E04-480p.WEB-DL_MeliMedia.mkv
-		Ozark S01 E05.mp4
-		Ozark S01 E06.mp4
-		Ozark-S02E06-480p.WEB-DL_MeliMedia.mkv
-		Ozark-S02E09-480p.WEB-DL_MeliMedia.mkv
-		Ozark S01 E04.mp4
-		Ozark-S02E02-480p.WEB-DL_MeliMedia.mkv
-		Ozark S01 E02.mp4
-		Ozark-S02E10-480p.WEB-DL_MeliMedia.mkv
-		Ozark S01 E01.mp4
-		Ozark.S01.MyEgy.360p.rar
-		Ozark S01 E09.mp4
-		Ozark-S02E05-480p.WEB-DL_MeliMedia.mkv
-		Ozark S01 E10.mp4
-		Ozark-S02E07-480p.WEB-DL_MeliMedia.mkv
-		Ozark-S02E03-480p.WEB-DL_MeliMedia.mkv
-		Ozark S01 E03.mp4
-Mine
-	files
-		13 RW.zip
-		Dark.zip
-Deadly Class
-	files
-		Deadly Class S01 E07.mp4
-		Deadly Class S01 E02.mp4
-		Deadly Class S01 E10.mp4
-		Deadly Class S01 E05.mp4
-		Deadly Class S01 E03.mp4
-		Deadly Class S01 E09.mp4
-		Deadly Class S01 E01.mp4
-		Deadly Class S01 E08.mp4
-		Deadly Class S01 E06.mp4
-		Deadly Class S01 E04.mp4
-You
-	files
-	S01
-		You S01 E08.mp4
-		You S01 E05.mp4
-		You S01 E04.mp4
-		You S01 E06.mp4
-		You S01 E07.mp4
-		You S01 E03.mp4
-		You S01 E01.mp4
-		You S01 E10.mp4
-		You S01 E02.mp4
-		YOU S01 E09.mp4
-Lovesick
-	files
-		Lovesick.S03.MyEgY.TV.By.AHMED.T.HeJaizee.360p.rar
-		Lovesick.S02.MyEgY.TV.By.AHMED.T.HeJaizee.360p.rar
-		Lovesick.S01.MyEgY.TV.By.AHMED.T.HeJaizee.360p.rar
-	Lovesick.S01.MyEgY.TV.By.AHMED.T.HeJaizee.360p
-		Lovesick S01 E03.mp4
-		Lovesick S01 E04.mp4
-		Lovesick S01 E01.mp4
-		Lovesick S01 E05.mp4
-		Lovesick S01 E02.mp4
-		Lovesick S01 E06.mp4
-	Lovesick.S03.MyEgY.TV.By.AHMED.T.HeJaizee.360p
-		Lovesick S03 E04.mp4
-		Lovesick S03 E02.mp4
-		Lovesick S03 E03.mp4
-		Lovesick S03 E07.mp4
-		Lovesick S03 E01.mp4
-		Lovesick S03 E05.mp4
-		Lovesick S03 E08.mp4
-		Lovesick S03 E06.mp4
-	Lovesick.S02.MyEgY.TV.By.AHMED.T.HeJaizee.360p
-		Lovesick S02 E03.mp4
-		Lovesick S02 E05.mp4
-		Lovesick S02 E08.mp4
-		Lovesick S02 E07.mp4
-		Lovesick S02 E01.mp4
-		Lovesick S02 E02.mp4
-		Lovesick S02 E06.mp4
-		Lovesick S02 E04.mp4
-The Haunting of Hill House
-	files
-		The Haunting Of Hill House S01 E06.mp4
-		The Haunting Of Hill House S01 E07.mp4
-		The Haunting Of Hill House S01 E05.mp4
-		The Haunting Of Hill House S01 E04.mp4
-		The Haunting Of Hill House S01 E02.mp4
-		The Haunting of Hill House S01 E01.mp4
-		The Haunting Of Hill House S01 E09.mp4
-		The Haunting Of Hill House S01 E03.mp4
-		The Haunting Of Hill House S01 E10.mp4
-		The Haunting Of Hill House S01 E08.mp4
 Sherlock
 	files
-	S04
-		[EgyBest].Sherlock.S04E01.BluRay.360p.x264.mp4
-		[EgyBest].Sherlock.S04E03.BluRay.360p.x264.mp4
-		[EgyBest].Sherlock.S04E02.BluRay.360p.x264.mp4
-	S03
-		[EgyBest].Sherlock.S03E02.BluRay.360p.x264.mp4
-		[EgyBest].Sherlock.S03E01.BluRay.360p.x264 1.mp4
-		[EgyBest].Sherlock.S03E03.BluRay.360p.x264.mp4
 	S01
-		[EgyBest].Sherlock.S01E02.BluRay.360p.x264.mp4
-		[EgyBest].Sherlock.S01E01.BluRay.360p.x264.mp4
-		[EgyBest].Sherlock.S01E03.BluRay.360p.x264.mp4
+		Directory_Listing.py
+		Directory_Listing0.py
+		Sherlock S01 E01.txt
+		Sherlock S01 E02.txt
+		Sherlock S01 E03.txt
+		Sherlock S01 E04.txt
 	S02
-		[EgyBest].Sherlock.S02E03.BluRay.360p.x264.mp4
-Young Sheldon
+		Sherlock S02 E01.txt
+		Sherlock S02 E02.txt
+		Sherlock S02 E03.txt
+		Sherlock S02 E04.txt
+	S03
+		Directory_Listing.py
+		Sherlock S03 E01.txt
+		Sherlock S03 E02.txt
+		Sherlock S03 E03.txt
+		Sherlock S03 E04.txt
+	S04
+		Sherlock S04 E01.txt
+		Sherlock S04 E02.txt
+		Sherlock S04 E03.txt
+		Sherlock S04 E04.txt
+The Punisher
 	files
-		Young Sheldon S02 E01.mp4
-		Young Sheldon S01 E04.mp4
-		Young Sheldon S02 E09.mp4
-		Young Sheldon S02 E06.mp4
-		Young Sheldon S02 E20.mp4
-		Young Sheldon S01 E01.mp4
-		Young Sheldon S01 E06.mp4
-		Young Sheldon S01 E10.mp4
-		Young Sheldon S02 E19.mp4
-		Young Sheldon S01 E21.mp4
-		Young Sheldon S02 E07.mp4
-		Young Sheldon S01 E03.mp4
-		Young Sheldon S02 E10.mp4
-		Young Sheldon S02 E12.mp4
-		Young Sheldon S02 E18.mp4
-		Young Sheldon S02 E14.mp4
-		Young Sheldon S02 E04.mp4
-		Young Sheldon S02 E11.mp4
-		Young Sheldon S01 E13.mp4
-		Young Sheldon S01 E18.mp4
-		Young Sheldon S02 E15.mp4
-		Young Sheldon S01 E20.mp4
-		Young Sheldon S02 E03.mp4
-		Young Sheldon S02 E13.mp4
-		Young Sheldon S02 E08.mp4
-		Young Sheldon S01 E22.mp4
-		Young Sheldon S01 E08.mp4
-		Young Sheldon S02 E02.mp4
-		Young Sheldon S01 E07.mp4
-		Young Sheldon S01 E14.mp4
-		Young Sheldon S01 E05.mp4
-		Young Sheldon S01 E09.mp4
-		Young Sheldon S02 E21.mp4
-		Young Sheldon S01 E12.mp4
-		Young Sheldon S02 E05.mp4
-		Young Sheldon S02 E17.mp4
-		Young Sheldon S01 E17.mp4
-		Young Sheldon S01 E19.mp4
-		Young Sheldon S01 E02.mp4
-		Young Sheldon S02 E16.mp4
-		Young Sheldon S01 E15.mp4
-		Young Sheldon S01 E16.mp4
-		Young Sheldon S01 E11.mp4
-Patrick Melrose
-	files
-		Patrick Melrose S01 E03.mp4
-		Patrick Melrose S01 E02.mp4
-		Patrick Melrose S01 E05.mp4
-		Patrick Melrose S01 E04.mp4
-		Patrick Melrose S01 E01.mp4
-Sharp Objects
-	files
-		Sharp.Objects.S01.MyEgy.360p.rar
-	Sharp.Objects.S01.MyEgy.360p
-		Sharp Objects S01 E07.mp4
-		Sharp Objects S01 E04.mp4
-		Sharp Objects S01 E08.mp4
-		Sharp Objects S01 E02.mp4
-		Sharp Objects S01 E06.mp4
-		Sharp Objects .jpg
-		Sharp Objects S01 E01.mp4
-		Sharp Objects S01 E03.mp4
-		Sharp Objects S01 E05.mp4
-Stranger Things
-	files
-		stranger.things.s02e01.MYEGY.TV.480p.mp4
-		Stranger Things S01 E07.mp4
-		stranger.things.s02e02.MYEGY.TV.480p.mp4
-		stranger.things.s02e03.MyEgy.tv.480p.mp4
-		Stranger Things S01 E04.mp4
-		stranger.things.s02e06.MyEgy.tv.480p.mp4
-		Stranger Things S01 E01.mp4
-		stranger.things.s02e09.MyEgy.tv.480p.mp4
-		Stranger Things S01 E06.mp4
-		Stranger Things S01 E05.mp4
-		stranger.things.s02e04.MyEgy.tv.360p.mp4
-		stranger.things.s02e05.MyEgy.tv.360p.mp4
-		Stranger Things S01 E08.mp4
-		Stranger Things S01 E03.mp4
-		stranger.things.s02e08.MyEgy.tv.480p.mp4
-		stranger.things.s02e07.MyEgy.tv.360p.mp4
-		Stranger Things S01 E02.mp4
-Chernopyl
-	files
-		Chernobyl.S01E03.480p.WEB-DL.x264.mkv
-		[EgyBest].Chernobyl.S01E01.WEB-DL.240p.x264.mp4
-		Chernobyl.S01E02.480p.WEB-DL.x264.mkv
-		Chernobyl.S01E04.480p.WEB-DL.x264.mkv
-		Chernobyl.S01E05.480p.WEB-DL.x264.mkv
-Westworld
-	files
-		WestWorld S01.zip
+		The Punisher S01 E01.txt
+		The Punisher S01 E02.txt
+		The Punisher S01 E03.txt
+		The Punisher S01 E04.txt
+		The Punisher S01 E05.txt
+		The Punisher S01 E06.txt
+		The Punisher S01 E07.txt
+		The Punisher S01 E08.txt
+		The Punisher S01 E09.txt
+		The Punisher S01 E10.txt
+		The Punisher S01 E11.txt
+		The Punisher S01 E12.txt
 	S02
-		Westworld S02 E08.mp4
-		Westworld S02 E09.mp4
-		Westworld S02 E03.mp4
-		Westworld S02 E01.mp4
-		Westworld S02 E04.mp4
-		Westworld S02 E07.mp4
-		Westworld S02 E05.mp4
-		Westworld S02 E06.mp4
-		Westworld S02 E10.mp4
-		Westworld S02 E02.mp4
-The Umbrella Academy
-	files
-		The Umbrella Academy S01 E02.mp4
-		The Umbrella Academy S01 E09.mp4
-		The Umbrella Academy S01 E03.mp4
-		The Umbrella Academy S01 E08.mp4
-		The Umbrella Academy S01 E05.mp4
-		The Umbrella Academy S01 E07.mp4
-		The Umbrella Academy S01 E01.mp4
-		The Umbrella Academy S01 E04.mp4
-		The Umbrella Academy S01 E06.mp4
-		The Umbrella Academy S01 E10.mp4
-Counterpart
-	files
-		Counterpart S02 E05.mp4
-		Counterpart S01 E03.mp4
-		Counterpart S01 E09.mp4
-		Counterpart S01 E10.mp4
-		Counterpart S01 E02.mp4
-		Counterpart S01 E04.mp4
-		Counterpart S02 E03.mp4
-		Counterpart S02 E07.mp4
-		Counterpart S01 E08.mp4
-		Counterpart S02 E01.mp4
-		Counterpart S01 E01.mp4
-		Counterpart S02 E09..mp4
-		Counterpart S01 E07.mp4
-		Counterpart S02 E02.mp4
-		Counterpart S01 E06.mp4
-		Counterpart S02 E10.mp4
-		Counterpart S01 E05.mp4
-		Counterpart S02 E08.mp4
-		Counterpart S02 E06.mp4
-		Counterpart S02 E04.mp4
+		The Punisher S02 E01.txt
+		the-punisher-S02-E02(12).txt
+		the-punisher-S02-E03 (13).txt
+		the-punisher-S02-E04(14).txt
+		the-punisher-S02-E05(16).txt
+		the-punisher-S02-E06 (17).txt
+		the-punisher-S02-E07 (18).txt
+		the-punisher-S02-E08 (19).txt
+		the-punisher-S02-E09 (20).txt
+		the-punisher-S02-E10 (21).txt
+		the-punisher-S02-E11 (22).txt
+		the-punisher-S02-E12(15).txt

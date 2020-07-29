@@ -1,18 +1,18 @@
 import os
 import re
 import copy
-directory=r"/media/yousef/6a7721ee-4aef-4fec-8acf-614869125d1d/home/yousef/Desktop/SERIES"
+directory=r"C:\Users\Yousef\Videos\Series"
 adict={}
 def extract_series():
 	"""This function access the directory and creates a dict and a text.txt file which includes the directory tree."""
 	with open("text.txt","w") as file:
 		folders=os.listdir(directory)
 		for folder in folders:
-			p=os.listdir(directory+"/"+folder)
+			p=os.listdir(directory+"\\"+folder)
 			adict[folder]={"files":[]}
 			for i in p:
-				if os.path.isdir(directory+"/"+folder+"/"+i):
-					b=os.listdir(directory+"/"+folder+"/"+i)
+				if os.path.isdir(directory+"\\"+folder+"\\"+i):
+					b=os.listdir(directory+"\\"+folder+"\\"+i)
 					adict[folder][i]=b
 				else:
 					adict[folder]["files"]+=[i]
@@ -50,18 +50,11 @@ renaming()
 
 
 for key in names.keys():
-			
+
 			for a in names[key]:
 				print("\t"+a+"\n")
 				for x in range(len(names[key][a])):
 					if a == "files":
-						os.rename(directory+"/"+ key+ "/"  + adict[key][a][x],directory+"/"+ key+ "/"  + names[key][a][x])
+						os.rename(directory+"\\"+ key+ "\\"  + adict[key][a][x],directory+"\\"+ key+ "\\"  + names[key][a][x])
 					else:
-						os.rename(directory+"/"+ key+ "/"  +a+"/" +adict[key][a][x],directory+"/"+ key+"/" +a+ "/"  + names[key][a][x])
-
-
-
-
-
-
-
+						os.rename(directory+"\\"+ key+ "\\"  +a+"\\" +adict[key][a][x],directory+"\\"+ key+"\\" +a+ "\\"  + names[key][a][x])
