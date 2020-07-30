@@ -60,7 +60,7 @@ def renaming():
 						ep=episode.findall(val)
 						if len(se) !=0 and len(ep) !=0:
 							names[key][a][val][ind]= key +" "+ se[0] + " " + ep[0] + aval[-4:]
-						ind+=1	
+						ind+=1
 
 	with open("text2.txt","w") as file2:
 		for key in names.keys():
